@@ -6,7 +6,7 @@ export default function App() {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Handle your login logic here
+  
     console.log('Username: ', username);
     console.log('Password: ', password);
   }
